@@ -31,7 +31,7 @@ def query_table_info(settings, table_list):
         存储结构为：List[ {"table1": "表名",
                         "table1_name": "表描述",
                         "table1_field_list": [
-                             field1, field2, field3
+                             [field1, ... ], [field2, ...], [field3, ...], ...
                            ]
                       }]
     """
