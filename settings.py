@@ -7,10 +7,10 @@ class Settings:
     def __init__(self):
         # mysql 连接信息
         self.mysql_host = '127.0.0.1'
-        self.mysql_port = 3307
+        self.mysql_port = 3306
         self.mysql_user = 'root'
         self.mysql_password = '123456'
-        self.mysql_dbname = 'biaozhunyun'
+        self.mysql_dbname = 'db_test'
         self.mysql_charset = 'utf8'
 
         # 定义mysql 常量字典
